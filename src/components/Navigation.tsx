@@ -53,6 +53,16 @@ const Navigation: React.FC = () => {
         
         <nav className="hidden md:block">
           <ul className="flex gap-8">
+              <li>
+              <Link 
+                to="/about" 
+                className={`font-body text-sm transition-colors ${
+                  isActive('/about') ? 'text-white' : 'text-white/60 hover:text-white'
+                }`}
+              >
+                ABOUT
+              </Link>
+            </li>
             <li>
               <Link 
                 to="/infinita" 
@@ -103,7 +113,7 @@ const Navigation: React.FC = () => {
                 SUBSTACK
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link 
                 to="/about" 
                 className={`font-body text-sm transition-colors ${
@@ -112,7 +122,7 @@ const Navigation: React.FC = () => {
               >
                 ABOUT
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
         

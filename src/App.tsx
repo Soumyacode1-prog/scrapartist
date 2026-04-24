@@ -24,13 +24,14 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
+          <Route path="/about" element={<About />} />
           <Route path="/" element={<Landing />} />
           <Route path="/infinita" element={<Infinita />} />
           <Route path="/ilumina" element={<Ilumina />} />
           <Route path="/all-projects" element={<Index />} />
           <Route path="/projects" element={<Navigate to="/all-projects" replace />} />
           <Route path="/projects/:slug" element={<ProjectView />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
           <Route path="/photodiary" element={<Sketchbook />} />
           <Route path="/sketchbook" element={<Sketchbook />} />
           <Route path="/substack" element={<Substack />} />
