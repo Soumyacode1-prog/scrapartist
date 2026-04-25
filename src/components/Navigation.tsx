@@ -63,6 +63,16 @@ const Navigation: React.FC = () => {
                 ABOUT
               </Link>
             </li>
+                <li>
+              <Link 
+                to="/all-projects" 
+                className={`font-body text-sm transition-colors ${
+                  isActive('/all-projects') ? 'text-white' : 'text-white/60 hover:text-white'
+                }`}
+              >
+                ALL PROJECTS
+              </Link>
+            </li>
             <li>
               <Link 
                 to="/infinita" 
@@ -83,7 +93,7 @@ const Navigation: React.FC = () => {
                 ILUMINA
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link 
                 to="/all-projects" 
                 className={`font-body text-sm transition-colors ${
@@ -92,7 +102,7 @@ const Navigation: React.FC = () => {
               >
                 ALL PROJECTS
               </Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link 
                 to="/sketchbook" 
