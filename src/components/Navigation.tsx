@@ -63,7 +63,7 @@ const Navigation: React.FC = () => {
                 ABOUT
               </Link>
             </li>
-                <li>
+                {/* <li>
               <Link 
                 to="/all-projects" 
                 className={`font-body text-sm transition-colors ${
@@ -72,7 +72,7 @@ const Navigation: React.FC = () => {
               >
                 ALL PROJECTS
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link 
                 to="/infinita" 

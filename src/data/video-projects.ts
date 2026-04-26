@@ -4,57 +4,83 @@ import { Project } from './types';
 export const videoProjects: Project[] = [
   {
     id: 11,
-    title: "Premio SIM - TV Globo",
-    slug: "premio-sim-tv-globo",
+    title: "WASTE TO ART UNDER SPECIAL CAMPAIGN 4.0",
+    slug: "waste-to-art-under-special-campaign-4.0",
     category: ["video"],
-    thumbnail: "/lovable-uploads/ccfae5d7-6fba-47e7-98cc-7c6e0de82514.png",
+    thumbnail: "/lovable-uploads/image2.jpeg",
     images: [
-      "/lovable-uploads/ccfae5d7-6fba-47e7-98cc-7c6e0de82514.png",
-      "/lovable-uploads/10d14a41-1470-4faa-8d5e-fabc65cae94c.png",
-      "/lovable-uploads/2ee34d11-ddb6-4cd3-a615-e5a75296e39f.png",
-      "/lovable-uploads/678e8169-79b7-4170-911c-94ade82d9cfa.png",
-      "/lovable-uploads/74ae1fcc-463f-4adb-8d04-0378372c9034.png",
-      "/lovable-uploads/0ee8a45d-7459-4b76-83a4-6bd821b11928.png",
-      "/lovable-uploads/8191abda-932b-438f-a5df-880c8416a07f.png",
-      "/lovable-uploads/673bc75d-0027-4d1f-898f-6caf305d4f1d.png",
-      "/lovable-uploads/f80316da-610c-4a0a-aa46-facea08d2b5d.png"
+      "/lovable-uploads/image.png",
+      "/lovable-uploads/image1.png",
+      "/lovable-uploads/image2.jpeg",
+      "/lovable-uploads/image3.jpeg",
+      "/lovable-uploads/image4.jpeg",
+      "/lovable-uploads/image5.jpeg",
+   
     ],
     youtubeId: "zrIlYORbVEo",
-    description: "AI-generated visuals for indigenous pop singer Kae Guajajara's performance during the Premio SIM à Igualdade Racial 2025, broadcast on TV Globo.",
-    date: "2025",
-    location: "Brazil - TV Globo",
+    description: `Material Used (Recycled Materials):
+Metal sheet, Metal Rod, Metal wire, window panel,
+Hexagonal Metal Nut, metal stripe, square pipe, Barrel. Approximate Dimensions:
+LxWxH: 12x2x6.5 Foot
+Weight: 210 Kg`,
+    date: "2024",
+    location: "Ranchi , Jharkhand, India",
     isFeatured: true,
-    details: "Created visuals for the indigenous pop singer Kae Guajajara's performance during the Premio SIM à Igualdade Racial 2025, an awards ceremony celebrating racial equality in Brazil. The show was transmitted on TV Globo, Brazil's biggest television channel.\n\nUsing AI tools, I created a series of textures inspired by nature and combined them with traditional indigenous patterns from the Guajajara nation. The visual elements honored Kae Guajajara's cultural heritage while creating a contemporary digital art experience that complemented her musical performance.\n\nThe project showcases the intersection of traditional indigenous art forms with modern AI-generated imagery, creating a unique visual language that celebrates both cultural heritage and technological innovation. The work was designed to enhance the live television broadcast and create an immersive visual experience for viewers across Brazil."
+    details: `This unique art installation, created from metal scrap provided by
+CMPDI, embodies the essence of transformation under the
+"Waste to Art" initiative part of the Special Campaign 4.0. The
+artwork presents Mahatma Gandhi holding a broom, symbolizing
+his timeless message of cleanliness and sanitation for society.
+Through this installation CMPDI delivers a powerful message
+about the importance of cleanliness and the need for a collective
+responsibility towards maintaining a clean environment. The use
+of recycled scrap metal not only serves as an artistic expression
+but also highlights the significance of recycling and sustainability.
+This installation is a testament to CMPDI's commitment to social
+responsibility and environmental awareness, demonstrating how
+waste can be repurposed into meaningful art that inspires and
+educates. It stands as a reminder that every effort, no matter how
+small, contributes to a cleaner and greener word.`
   },
   {
     id: 12,
-    title: "Devir-Mulher",
-    slug: "devir-mulher",
+    title: "SWACHHATA HI SEVA SPECIAL CAMPAIGN 4.0",
+    slug: "swachhata-hi-seva-special-campaign-4.0",
     category: ["video"],
-    thumbnail: "/lovable-uploads/b96727b9-827c-4d35-ae39-decc6d0dbb74.png",
+    thumbnail: "/lovable-uploads/image8.jpeg",
     images: [
-      "/lovable-uploads/bc696970-4031-4af0-8b78-e02276f42f06.png",
-      "/lovable-uploads/4a9f15c8-0420-4a43-8b3b-2e6fe298f525.png",
-      "/lovable-uploads/f9481187-860e-4c19-8de7-497da30576a3.png",
-      "/lovable-uploads/e1808083-5d7c-42dd-8123-8f8fdebd9cce.png",
-      "/lovable-uploads/a899e474-390e-4ebe-9fd4-13d6003fcb59.png",
-      "/lovable-uploads/913b8eb2-2c9e-4b93-a63b-8bfef4716872.png",
-      "/lovable-uploads/1a376ed5-eb04-43ab-b915-f512a47a9448.png",
-      "/lovable-uploads/59bbb507-0147-4e47-82a6-a4e924c20c70.png",
-      "/lovable-uploads/8e2ded56-cc6e-4361-8380-f384f8210aa6.png",
-      "/lovable-uploads/b96727b9-827c-4d35-ae39-decc6d0dbb74.png"
+      "/lovable-uploads/image6.png",
+      "/lovable-uploads/image7.png",
+      "/lovable-uploads/image8.jpeg",
+      "/lovable-uploads/image9.jpeg",
+      "/lovable-uploads/image10.jpeg",
+      "/lovable-uploads/image11.jpeg",
+      "/lovable-uploads/image12.jpeg",
+      "/lovable-uploads/image13.jpeg",
+  
     ],
     youtubeId: "r02RDeHWYBQ",
-    description: "A poetic video about being and becoming a woman, a partnership with Morena Cardoso and Danzamedicina.",
-    date: "2020",
-    location: "Cabiria Film Festival 2020",
+    description: `Approximate Dimensions
+Length: 15 x 22 x 5 Feet
+Weight: 280 Kg
+Material Used (Recycled Materials):
+Clutch plate
+Bike socket nut bolt
+Rod
+Metal sheet
+Bearing
+Window panel
+Window gate`,
+    date: "2025",
+    location: "Ranchi, Jharkhand, India",
     isFeatured: true,
-    details: "Devir-Mulher is a poetic exploration of feminine identity, transformation, and the multifaceted experience of womanhood. Created in partnership with Morena Cardoso and Danzamedicina, this video piece was part of the Cabiria Film Festival 2020.\n\nThe work delves into the intimate and universal aspects of being a woman, capturing moments of vulnerability, strength, connection, and self-discovery. Through a series of carefully composed visual narratives, the piece explores themes of bodily autonomy, sisterhood, sensuality, and the cyclical nature of feminine experience.\n\nThe collaboration brings together different artistic perspectives to create a visual poem that celebrates the complexity and beauty of feminine existence. The imagery flows between moments of solitude and communion, nature and intimacy, creating a meditative space for reflection on what it means to embody and express femininity in contemporary society."
+    details: `This unique "Golden Deer and Fawn" sculpture was crafted from CMPDI's waste materials as part of the Special Campaign 4.0, Swachhata Hi Sewa 2024. The sculpture captures the beauty of a deer and her baby using discarded window round rods, metal angles, sheets, and stripes. The intricate details of the deer figures highlight the resourceful use of scrap metal, blending artistry with sustainability. Additionally, the CMPDI logo and alphabet were meticulously formed from waste nuts and rods, symbolizing the harmony between industrial materials and creative expression. This sculpture is a testament to the transformative power of waste-to-art innovation.`
   },
+
   {
     id: 6,
-    title: "Lotus Bloom",
-    slug: "lotus-bloom",
+    title: "LOGO OF MUNICIPAL CORPORATION RANCHI",
+    slug: "logo-of-municipal-corporation-ranchi",
     category: ["video"],
     thumbnail: "/lovable-uploads/48318c35-23f6-4133-8c4a-69ba3191de23.png",
     images: [

@@ -71,7 +71,7 @@ const AboutSection: React.FC = () => {
                   rel="noopener noreferrer" 
                   className="inline-flex items-center font-body text-sm tracking-wider group hover:text-white/90"
                 >
-                  <Instagram size={18} className="mr-2" />
+                  <Instagram size={18} className="m/Users/soumya/Downloads/KD_03549.jpg.jpeg/Users/soumya/Downloads/KD_03549.jpg.jpeg/Users/soumya/Downloads/KD_03549.jpg.jpegr-2" />
                   @shivamsingh3824
                 </a>
               </div>
@@ -79,7 +79,7 @@ const AboutSection: React.FC = () => {
               <Link 
                 to="/about" 
                 className="inline-flex items-center font-body text-sm tracking-wider group"
-              >
+              >/Users/soumya/Downloads/KD_03556.jpg (1).jpeg
                 MORE ABOUT ME
                 <ArrowRight 
                   size={16} 

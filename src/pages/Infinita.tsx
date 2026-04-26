@@ -79,7 +79,7 @@ const Infinita: React.FC = () => {
           <div className="mb-12 max-w-4xl">
             <div className="flex items-center justify-between mb-6">
               <h2 className="font-display text-3xl md:text-4xl tracking-wider animate-fade-in">
-                INFINITA CHEBEL
+                MY PROJECTS
               </h2>
               <Link 
                 to="/" 
