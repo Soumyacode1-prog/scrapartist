@@ -82,17 +82,17 @@ Window gate`,
     title: "LOGO OF MUNICIPAL CORPORATION RANCHI",
     slug: "logo-of-municipal-corporation-ranchi",
     category: ["video"],
-    thumbnail: "/lovable-uploads/48318c35-23f6-4133-8c4a-69ba3191de23.png",
+    thumbnail: "/lovable-uploads/logo3.JPG",
     images: [
-      "/lovable-uploads/48318c35-23f6-4133-8c4a-69ba3191de23.png",
-      "/lovable-uploads/846197ea-c128-4545-9df6-77947b19080c.png",
-      "/lovable-uploads/53bf42c5-67aa-44df-a8f8-7fda6105553c.png",
-      "/lovable-uploads/c26add69-8f87-48fd-8289-565851fdab4e.png",
-      "/lovable-uploads/d0d5515f-20ac-4d3d-bf27-52625147d335.png",
-      "/lovable-uploads/72690cf3-d0de-4385-8ec5-6ad24193b4e3.png",
-      "/lovable-uploads/f49633a4-3e97-4008-99f5-57d740ca6064.png",
-      "/lovable-uploads/cdece5e8-3369-4ffd-b1f5-c0a494c44c3b.png",
-      "/lovable-uploads/11624026-486b-4a5e-9bfe-9d6dc506f3b7.png"
+      "/lovable-uploads/logo1.JPG",
+      "/lovable-uploads/logo2.JPG",
+      "/lovable-uploads/logo3.JPG",
+      "/lovable-uploads/logo4.JPG",
+      "/lovable-uploads/logo5.JPG",
+      "/lovable-uploads/logo6.jpeg",
+      "/lovable-uploads/logo7.jpeg",
+      "/lovable-uploads/logo8.jpeg",
+   
     ],
     youtubeId: "z8mfcIqVBWk",
     description: "A visual meditation on feminine beauty, strength, and the sacred power of stillness.",
@@ -103,17 +103,17 @@ Window gate`,
   },
   {
     id: 10,
-    title: "Music Videos",
+    title: "BHAGWAN BIRSA MUNDA STATUE (RANCHI AIRPORT)",
     slug: "music-videos",
     category: ["video"],
     thumbnail: "/lovable-uploads/70394a61-a8c0-463e-95a6-f85144967fcd.png",
-    images: [],
+    images: [
+         "/lovable-uploads/logo8.jpeg",
+
+    ],
     youtubeIds: [
       "5n6uJ6aZ8JU",
-      "5tRvMmd6cD0",
-      "QyAYrmLYVfg",
-      "3AcCvHSR7dw",
-      "1h5W5hWCJtc"
+    
     ],
     description: "A collection of music videos directed and produced for various artists.",
     date: "2024",
@@ -123,11 +123,15 @@ Window gate`,
   },
   {
     id: 13,
-    title: "Artist Videos",
+    title: "WASTE TO ART CMPDI",
     slug: "artist-videos",
     category: ["video"],
     thumbnail: "/lovable-uploads/artist-videos-thumbnail.png",
-    images: [],
+    images: [
+
+
+      
+    ],
     youtubeIds: [
       "pma2v5F_FGc",
       "yLDirVLkTwU",

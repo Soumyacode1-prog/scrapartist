@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
 const personaImages = [
-  "/lovable-uploads/48318c35-23f6-4133-8c4a-69ba3191de23.png",
-  "/lovable-uploads/f80972c5-c4a4-496b-8171-e2730dd1b15b.png",
-  "/lovable-uploads/0fac703d-544a-4c73-89b3-c17395277326.png",
-  "/lovable-uploads/9f887525-f0f5-4f1e-aaa2-cc0136937f34.png",
-  "/lovable-uploads/db4eb682-0549-4794-9705-38f15b4324ec.png",
-  "/lovable-uploads/daa43558-4d77-43f4-9f6b-cfde79a2838b.png"
+  "/lovable-uploads/front1.JPG",
+  "/lovable-uploads/front2.JPG",
+  "/lovable-uploads/front3.JPG",
+  "/lovable-uploads/front4.JPG",
+    "/lovable-uploads/front6.JPG",
+   "/lovable-uploads/image4.jpeg",
+   "/lovable-uploads/image8.jpeg",
+
 ];
 
 const Landing: React.FC = () => {
@@ -81,7 +83,7 @@ const Landing: React.FC = () => {
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="font-display text-4xl md:text-6xl lg:text-7xl tracking-wider mb-6 animate-fade-in">
-              CHOOSE YOUR <span className="text-gradient">JOURNEY</span>
+              SCRAP ART <span className="text-gradient">DESIGNER</span>
             </h2>
             <p className="font-body text-lg text-white/90 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "200ms" }}>
               Two distinct artistic personas, each offering a unique perspective.
