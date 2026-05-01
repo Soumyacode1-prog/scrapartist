@@ -92,6 +92,9 @@ Window gate`,
       "/lovable-uploads/logo6.jpeg",
       "/lovable-uploads/logo7.jpeg",
       "/lovable-uploads/logo8.jpeg",
+      "/lovable-uploads/logo9.jpeg",
+      "/lovable-uploads/logo10.jpeg",
+      "/lovable-uploads/logo11.jpeg",
    
     ],
     youtubeId: "z8mfcIqVBWk",
@@ -130,7 +133,7 @@ Window gate`,
     images: [
 
 
-      
+
     ],
     youtubeIds: [
       "pma2v5F_FGc",
