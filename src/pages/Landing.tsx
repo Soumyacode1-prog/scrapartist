@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
 const personaImages = [
-  "/lovable-uploads/front1.JPG",
-  "/lovable-uploads/front2.JPG",
-  "/lovable-uploads/front3.JPG",
-  "/lovable-uploads/front4.JPG",
-    "/lovable-uploads/front6.JPG",
-   "/lovable-uploads/image4.jpeg",
-   "/lovable-uploads/image8.jpeg",
+"/lovable-uploads/front1.png",
+  "/lovable-uploads/front2.png",
+  "/lovable-uploads/front3.png",
+  "/lovable-uploads/front4.png",
+  "/lovable-uploads/front6.png",
+   "/lovable-uploads/image4.png",
+   "/lovable-uploads/image8.png",
 
 ];
 

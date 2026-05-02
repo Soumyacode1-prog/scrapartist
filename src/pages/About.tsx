@@ -83,7 +83,7 @@ const About: React.FC = () => {
               <div className="relative perspective">
                 <div className="relative rounded-lg overflow-hidden transform hover:rotate-0 transition-transform duration-700 ease-out-expo shadow-xl">
                   <img 
-                    src="/lovable-uploads/shivam1.jpeg" 
+                    src="/lovable-uploads/shivam1.png" 
                     alt="Shivam Singh Portrait" 
                     className="w-full h-auto"
                   />
@@ -99,7 +99,7 @@ const About: React.FC = () => {
               <div className="relative perspective mt-8">
                 <div className="relative rounded-lg overflow-hidden transform rotate-2 hover:rotate-0 transition-transform duration-700 ease-out-expo shadow-xl">
                   <img 
-                    src="/lovable-uploads/shivam2.jpeg" 
+                    src="/lovable-uploads/shivam2.png" 
                     alt="Shivam Singh at work" 
                     className="w-full h-auto"
                   />
