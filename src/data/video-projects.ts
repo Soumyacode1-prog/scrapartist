@@ -209,11 +209,8 @@ Clutch plate, Bike socket nut bolt, Rod, Metal sheet, Bearing, Window panel, Win
     title: "RMC",
     slug: "rmc-sculpture",
     category: ["video"],
-    thumbnail: "/lovable-uploads/rmc26.png",
-    images: 
-      [
-      "/lovable-uploads/rmc25.png",
-      "/lovable-uploads/rmc26.png",
+    thumbnail: "/lovable-uploads/rmc3.png",
+    images: [
       "/lovable-uploads/rmc3.png",
       "/lovable-uploads/rmc4.png",
       "/lovable-uploads/rmc5.png",
@@ -234,7 +231,9 @@ Clutch plate, Bike socket nut bolt, Rod, Metal sheet, Bearing, Window panel, Win
       "/lovable-uploads/rmc21.png",
       "/lovable-uploads/rmc22.png",
       "/lovable-uploads/rmc23.png",
-      "/lovable-uploads/rmc24.png"
+      "/lovable-uploads/rmc24.png",
+      "/lovable-uploads/rmc25.png",
+      "/lovable-uploads/rmc26.png"
     ],
     youtubeId: "BAMdjOMDc1U",
     description: "A comprehensive documentary of the RMC (Ranchi Municipal Corporation) art installation project showcasing waste-to-art transformation.",
