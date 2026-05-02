@@ -27,21 +27,19 @@ const GalleryModal: React.FC<GalleryModalProps> = ({
 }) => {
   return (
     <Dialog open={galleryOpen} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-6xl p-0 bg-black/90 border-none">
-        <div className="absolute right-4 top-4 z-10 flex gap-2">
-          <Link to="/" className="rounded-full bg-black/50 p-2 text-white hover:bg-black/70">
-            <Home className="h-5 w-5" />
+      <DialogContent className="max-w-6xl w-screen max-h-[90vh] p-0 bg-black/95 border-none flex flex-col">
+        <div className="absolute right-6 top-6 z-50 flex gap-3 pointer-events-auto">
+          <Link to="/" className="flex items-center justify-center rounded-full bg-black/60 p-2.5 text-white hover:bg-black/80 transition-colors" title="Back to home">
+            <Home className="h-6 w-6" />
             <span className="sr-only">Back to home</span>
           </Link>
-          <DialogClose className="rounded-full bg-black/50 p-2 text-white hover:bg-black/70">
-            <X className="h-5 w-5" />
-            <span className="sr-only">Close</span>
+          <DialogClose className="flex items-center justify-center rounded-full bg-black/60 p-2.5 text-white hover:bg-black/80 transition-colors" title="Close gallery">
+            <X className="h-6 w-6" />
+            <span className="sr-only">Close gallery</span>
           </DialogClose>
         </div>
         
-        <div className="h-16 bg-black/80"></div>
-        
-        <div className="relative flex items-center justify-center w-full h-full min-h-[50vh] max-h-[70vh] py-4 px-4">
+        <div className="relative flex items-center justify-center flex-1 w-full min-h-[60vh] py-8 px-6">
           {project.images && (
             <img 
               src={project.images[galleryIndex]} 
@@ -55,20 +53,22 @@ const GalleryModal: React.FC<GalleryModalProps> = ({
               <Button 
                 variant="outline" 
                 size="icon" 
-                className="absolute left-4 top-1/2 -translate-y-1/2 rounded-full bg-black/30 hover:bg-black/50 border-0 z-10"
+                className="absolute left-4 top-1/2 -translate-y-1/2 rounded-full bg-black/60 hover:bg-black/90 border-0 z-40 pointer-events-auto"
                 onClick={onPrevImage}
+                title="Previous image"
               >
-                <ChevronLeft className="h-6 w-6" />
+                <ChevronLeft className="h-8 w-8" />
                 <span className="sr-only">Previous image</span>
               </Button>
               
               <Button 
                 variant="outline" 
                 size="icon" 
-                className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full bg-black/30 hover:bg-black/50 border-0 z-10"
+                className="absolute right-20 top-1/2 -translate-y-1/2 rounded-full bg-black/60 hover:bg-black/90 border-0 z-40 pointer-events-auto"
                 onClick={onNextImage}
+                title="Next image"
               >
-                <ChevronRight className="h-6 w-6" />
+                <ChevronRight className="h-8 w-8" />
                 <span className="sr-only">Next image</span>
               </Button>
             </>
