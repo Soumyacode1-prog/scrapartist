@@ -25,14 +25,14 @@ const Contact: React.FC = () => {
     
     // In a real implementation, you would send this to your email
     // Here we're simulating sending the form data
-    console.log('Form submitted to chebel@gmail.com:', formData);
+    console.log('Form submitted to shivam@scrapart.com:', formData);
     
     // Simulate form submission
     setTimeout(() => {
       setFormData({ name: '', email: '', subject: '', message: '' });
       setIsSubmitting(false);
       setSubmitSuccess(true);
-      toast.success("Message sent successfully! Chebel will get back to you soon.");
+      toast.success("Message sent successfully! Shivam will get back to you soon.");
       
       setTimeout(() => {
         setSubmitSuccess(false);
@@ -146,7 +146,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-display text-lg mb-1">Email</h3>
-                    <p className="font-body text-white/70">chebel@gmail.com</p>
+                    <p className="font-body text-white/70">shivam@scrapart.com</p>
                   </div>
                 </div>
               </div>

@@ -84,7 +84,7 @@ const About: React.FC = () => {
                 <div className="relative rounded-lg overflow-hidden transform hover:rotate-0 transition-transform duration-700 ease-out-expo shadow-xl">
                   <img 
                     src="/lovable-uploads/shivam1.jpeg" 
-                    alt="Chebel Portrait" 
+                    alt="Shivam Singh Portrait" 
                     className="w-full h-auto"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />

@@ -75,22 +75,22 @@ const Navigation: React.FC = () => {
             </li> */}
             <li>
               <Link 
-                to="/infinita" 
+                to="/decor-items" 
                 className={`font-body text-sm transition-colors ${
-                  isActive('/infinita') ? 'text-white' : 'text-white/60 hover:text-white'
+                  isActive('/decor-items') ? 'text-white' : 'text-white/60 hover:text-white'
                 }`}
               >
-                INFINITA
+                DECOR ITEMS
               </Link>
             </li>
             <li>
               <Link 
-                to="/ilumina" 
+                to="/all-projects" 
                 className={`font-body text-sm transition-colors ${
-                  isActive('/ilumina') ? 'text-white' : 'text-white/60 hover:text-white'
+                  isActive('/all-projects') ? 'text-white' : 'text-white/60 hover:text-white'
                 }`}
               >
-                ILUMINA
+                PROJECTS
               </Link>
             </li>
             {/* <li>
@@ -168,22 +168,12 @@ const Navigation: React.FC = () => {
             <ul className="flex flex-col gap-8">
               <li>
                 <Link 
-                  to="/infinita" 
+                  to="/decor-items" 
                   className={`font-body text-2xl transition-colors ${
-                    isActive('/infinita') ? 'text-white' : 'text-white/60'
+                    isActive('/decor-items') ? 'text-white' : 'text-white/60'
                   }`}
                 >
-                  INFINITA
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  to="/ilumina" 
-                  className={`font-body text-2xl transition-colors ${
-                    isActive('/ilumina') ? 'text-white' : 'text-white/60'
-                  }`}
-                >
-                  ILUMINA
+                  DECOR ITEMS
                 </Link>
               </li>
               <li>
@@ -193,7 +183,7 @@ const Navigation: React.FC = () => {
                     isActive('/all-projects') ? 'text-white' : 'text-white/60'
                   }`}
                 >
-                  ALL PROJECTS
+                  PROJECTS
                 </Link>
               </li>
               {/* <li>

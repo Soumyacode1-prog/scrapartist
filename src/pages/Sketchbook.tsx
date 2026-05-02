@@ -27,9 +27,9 @@ const Sketchbook: React.FC = () => {
             {/* Replace iframe with a direct link for mobile */}
             <div className="relative pb-[150%] md:pb-[100%] w-full h-0">
               <iframe 
-                src="https://chebel.tumblr.com" 
+                src="https://shivamsinghart.tumblr.com" 
                 className="absolute top-0 left-0 w-full h-full border-0"
-                title="Chebel Tumblr"
+                title="Shivam Singh Tumblr"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 loading="lazy"
               ></iframe>

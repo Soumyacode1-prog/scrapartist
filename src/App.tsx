@@ -6,8 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import Landing from "./pages/Landing";
-import Infinita from "./pages/Infinita";
-import Ilumina from "./pages/Ilumina";
+import DecorItems from "./pages/DecorItems";
 import Index from "./pages/Index";
 import ProjectView from "./pages/ProjectView";
 import About from "./pages/About";
@@ -26,12 +25,10 @@ const App = () => (
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/" element={<Landing />} />
-          <Route path="/infinita" element={<Infinita />} />
-          <Route path="/ilumina" element={<Ilumina />} />
+          <Route path="/decor-items" element={<DecorItems />} />
           <Route path="/all-projects" element={<Index />} />
           <Route path="/projects" element={<Navigate to="/all-projects" replace />} />
           <Route path="/projects/:slug" element={<ProjectView />} />
-          {/* <Route path="/about" element={<About />} /> */}
           <Route path="/photodiary" element={<Sketchbook />} />
           <Route path="/sketchbook" element={<Sketchbook />} />
           <Route path="/substack" element={<Substack />} />

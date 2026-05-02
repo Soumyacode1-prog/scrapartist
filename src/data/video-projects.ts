@@ -14,8 +14,7 @@ export const videoProjects: Project[] = [
       "/lovable-uploads/image2.jpeg",
       "/lovable-uploads/image3.jpeg",
       "/lovable-uploads/image4.jpeg",
-      "/lovable-uploads/image5.jpeg",
-   
+      "/lovable-uploads/image5.jpeg"
     ],
     youtubeId: "zrIlYORbVEo",
     description: `Material Used (Recycled Materials):
@@ -24,23 +23,9 @@ Hexagonal Metal Nut, metal stripe, square pipe, Barrel. Approximate Dimensions:
 LxWxH: 12x2x6.5 Foot
 Weight: 210 Kg`,
     date: "2024",
-    location: "Ranchi , Jharkhand, India",
+    location: "Ranchi, Jharkhand, India",
     isFeatured: true,
-    details: `This unique art installation, created from metal scrap provided by
-CMPDI, embodies the essence of transformation under the
-"Waste to Art" initiative part of the Special Campaign 4.0. The
-artwork presents Mahatma Gandhi holding a broom, symbolizing
-his timeless message of cleanliness and sanitation for society.
-Through this installation CMPDI delivers a powerful message
-about the importance of cleanliness and the need for a collective
-responsibility towards maintaining a clean environment. The use
-of recycled scrap metal not only serves as an artistic expression
-but also highlights the significance of recycling and sustainability.
-This installation is a testament to CMPDI's commitment to social
-responsibility and environmental awareness, demonstrating how
-waste can be repurposed into meaningful art that inspires and
-educates. It stands as a reminder that every effort, no matter how
-small, contributes to a cleaner and greener word.`
+    details: `This unique art installation, created from metal scrap provided by CMPDI, embodies the essence of transformation under the "Waste to Art" initiative part of the Special Campaign 4.0. The artwork presents Mahatma Gandhi holding a broom, symbolizing his timeless message of cleanliness and sanitation for society. Through this installation CMPDI delivers a powerful message about the importance of cleanliness and the need for a collective responsibility towards maintaining a clean environment. The use of recycled scrap metal not only serves as an artistic expression but also highlights the significance of recycling and sustainability. This installation is a testament to CMPDI's commitment to social responsibility and environmental awareness, demonstrating how waste can be repurposed into meaningful art that inspires and educates. It stands as a reminder that every effort, no matter how small, contributes to a cleaner and greener world.`
   },
   {
     id: 12,
@@ -56,27 +41,19 @@ small, contributes to a cleaner and greener word.`
       "/lovable-uploads/image10.jpeg",
       "/lovable-uploads/image11.jpeg",
       "/lovable-uploads/image12.jpeg",
-      "/lovable-uploads/image13.jpeg",
-  
+      "/lovable-uploads/image13.jpeg"
     ],
     youtubeId: "r02RDeHWYBQ",
     description: `Approximate Dimensions
 Length: 15 x 22 x 5 Feet
 Weight: 280 Kg
 Material Used (Recycled Materials):
-Clutch plate
-Bike socket nut bolt
-Rod
-Metal sheet
-Bearing
-Window panel
-Window gate`,
+Clutch plate, Bike socket nut bolt, Rod, Metal sheet, Bearing, Window panel, Window gate`,
     date: "2025",
     location: "Ranchi, Jharkhand, India",
     isFeatured: true,
     details: `This unique "Golden Deer and Fawn" sculpture was crafted from CMPDI's waste materials as part of the Special Campaign 4.0, Swachhata Hi Sewa 2024. The sculpture captures the beauty of a deer and her baby using discarded window round rods, metal angles, sheets, and stripes. The intricate details of the deer figures highlight the resourceful use of scrap metal, blending artistry with sustainability. Additionally, the CMPDI logo and alphabet were meticulously formed from waste nuts and rods, symbolizing the harmony between industrial materials and creative expression. This sculpture is a testament to the transformative power of waste-to-art innovation.`
   },
-
   {
     id: 6,
     title: "LOGO OF MUNICIPAL CORPORATION RANCHI",
@@ -94,173 +71,175 @@ Window gate`,
       "/lovable-uploads/logo8.jpeg",
       "/lovable-uploads/logo9.jpeg",
       "/lovable-uploads/logo10.jpeg",
-      "/lovable-uploads/logo11.jpeg",
-   
+      "/lovable-uploads/logo11.jpeg"
     ],
     youtubeId: "z8mfcIqVBWk",
-    description: "A visual meditation on feminine beauty, strength, and the sacred power of stillness.",
+    description: "Artistic logo installation for the Municipal Corporation of Ranchi showcasing creative municipal branding through scrap art.",
     date: "2025",
-    location: "Studio Production",
+    location: "Ranchi, Jharkhand, India",
     isFeatured: true,
-    details: "Lotus Bloom is a piece of visual poetry, a gentle ode to the feminine soul. Through the timeless symbol of the lotus flower—rising unstained from the mud—the film evokes the purity, strength, and mystery rooted in a woman's heart. It speaks of beauty that is not for display, but for belonging. A dream of harmony that women carry within, in contrast to a world shaped by conflict and conquest. In its stillness and grace, Lotus Bloom becomes a meditation on softness as power, on the sacred force of life that flows quietly, yet transforms everything.\n\nThe short film premiered at the Mars College AI Film Festival in 2025."
+    details: "This logo installation represents the Municipal Corporation of Ranchi's commitment to sustainable and artistic civic branding. Created from recycled materials, the installation combines functional design with environmental responsibility, serving as a landmark symbol of the corporation's identity while promoting the message of waste-to-art transformation and sustainability."
   },
   {
     id: 10,
     title: "BHAGWAN BIRSA MUNDA STATUE (RANCHI AIRPORT)",
-    slug: "music-videos",
+    slug: "bhagwan-birsa-munda-statue",
     category: ["video"],
     thumbnail: "/lovable-uploads/birsa3.jpg",
     images: [
-         "/lovable-uploads/birsa1.jpg",
-             "/lovable-uploads/birsa2.jpg",
-                 "/lovable-uploads/birsa3.jpg",
-                     "/lovable-uploads/birsa4.jpg",
-                         "/lovable-uploads/birsa5.jpg",
-                             "/lovable-uploads/birsa6.jpg",
-                                 "/lovable-uploads/birsa7.jpg",
-                                     "/lovable-uploads/birsa8.jpg",
-
+      "/lovable-uploads/birsa1.jpg",
+      "/lovable-uploads/birsa2.jpg",
+      "/lovable-uploads/birsa3.jpg",
+      "/lovable-uploads/birsa4.jpg",
+      "/lovable-uploads/birsa5.jpg",
+      "/lovable-uploads/birsa6.jpg",
+      "/lovable-uploads/birsa7.jpg",
+      "/lovable-uploads/birsa8.jpg"
     ],
-    youtubeIds: [
-      "5n6uJ6aZ8JU",
-    
-    ],
-    description: "A collection of music videos directed and produced for various artists.",
+    youtubeId: "5n6uJ6aZ8JU",
+    description: "A monumental sculpture honoring Bhagwan Birsa Munda, the legendary tribal freedom fighter, created from recycled materials.",
     date: "2024",
-    location: "Various Locations",
-    isFeatured: false,
-    details: "This collection showcases a series of music videos that blend visual storytelling with musical artistry. Each video represents a unique collaboration with different artists, exploring themes through innovative cinematography and creative direction."
+    location: "Ranchi Airport, Jharkhand, India",
+    isFeatured: true,
+    details: "This impressive sculpture at Ranchi Airport celebrates the legacy of Bhagwan Birsa Munda, a visionary tribal leader who fought for the rights and dignity of indigenous communities. Crafted from recycled materials, the statue seamlessly blends artistic excellence with environmental consciousness, creating a powerful tribute that stands as both a cultural landmark and a statement on sustainable art practices."
   },
   {
     id: 13,
     title: "WASTE TO ART CMPDI",
-    slug: "artist-videos",
+    slug: "waste-to-art-cmpdi",
     category: ["video"],
     thumbnail: "/lovable-uploads/cmpdi1.jpeg",
     images: [
-       "/lovable-uploads/cmpdi1.jpeg",
-       "/lovable-uploads/cmpdi2.jpeg",
-       "/lovable-uploads/cmpdi3.jpeg",
-       "/lovable-uploads/cmpdi4.jpeg",
-       "/lovable-uploads/cmpdi5.jpeg",
-       "/lovable-uploads/cmpdi7.png",
-       "/lovable-uploads/cmpdi8.png",
-       "/lovable-uploads/cmpdi9.png",
-       "/lovable-uploads/cmpdi11.png",
-       "/lovable-uploads/cmpdi12.png",
-       "/lovable-uploads/cmpdi13.png",
-       "/lovable-uploads/cmpdi14.png",
-       "/lovable-uploads/cmpdi15.png",
-
-
-
+      "/lovable-uploads/cmpdi1.jpeg",
+      "/lovable-uploads/cmpdi2.jpeg",
+      "/lovable-uploads/cmpdi3.jpeg",
+      "/lovable-uploads/cmpdi4.jpeg",
+      "/lovable-uploads/cmpdi5.jpeg",
+      "/lovable-uploads/cmpdi7.png",
+      "/lovable-uploads/cmpdi8.png",
+      "/lovable-uploads/cmpdi9.png",
+      "/lovable-uploads/cmpdi11.png",
+      "/lovable-uploads/cmpdi12.png",
+      "/lovable-uploads/cmpdi13.png",
+      "/lovable-uploads/cmpdi14.png",
+      "/lovable-uploads/cmpdi15.png"
     ],
-    youtubeIds: [
-      "pma2v5F_FGc",
-
-    ],
-    description: "A collection of documentary videos exploring art conservation, exhibitions, and creative processes.",
+    youtubeId: "pma2v5F_FGc",
+    description: "A comprehensive collection of waste-to-art projects created in collaboration with CMPDI, transforming industrial waste into meaningful sculptures and installations.",
     date: "2024",
-    location: "Various Museums and Galleries",
-    isFeatured: false,
-    details: "This collection features documentary-style videos that delve into the world of art conservation and exhibition curation. From the meticulous restoration of Frans Hals paintings at MASP to explorations of contemporary Brazilian artists like Elizabeth Jobim, Paulo Pasta, and Volpi, these videos offer intimate glimpses into the processes and philosophies that shape the art world. The collection also includes features on Jaider Esbell's powerful exhibition 'Ruku', José Damasceno's showcase at Pinacoteca, and Gregório Gruber's artistic practice."
+    location: "Ranchi, Jharkhand, India",
+    isFeatured: true,
+    details: "This collection showcases multiple waste-to-art initiatives developed in partnership with CMPDI. Each project demonstrates the transformative potential of recycled industrial materials, converting scrap metal and waste into compelling artistic installations. These works serve as powerful statements about sustainability, creativity, and the possibility of reimagining industrial byproducts as sources of beauty and cultural significance."
   },
-    {
+  {
     id: 15,
-    title: "5 G TOWER REPLICA",
-    slug: "fanta-konate",
+    title: "5G TOWER REPLICA",
+    slug: "5g-tower-replica",
     category: ["video"],
     thumbnail: "/lovable-uploads/5g1.png",
     images: [
       "/lovable-uploads/5g1.png",
       "/lovable-uploads/5g2.png"
-     
     ],
-    youtubeIds: ["txoONe0Vnj8"],
-    description: "Visual projections created for Fanta Konaté's performance at Festival Ilumina 2023.",
+    youtubeId: "txoONe0Vnj8",
+    description: "A contemporary art installation featuring a 5G tower replica created from recycled scrap materials.",
     date: "2023",
-    location: "Festival Ilumina",
+    location: "Ranchi, Jharkhand, India",
     isFeatured: true,
-    details: "Visual projections created for Fanta Konaté, an artist from Guinea, during her powerful performance at Festival Ilumina 2023. The immersive visuals featured vibrant African-inspired imagery, traditional masks, and dynamic patterns that complemented the musical journey, creating a bridge between ancestral traditions and contemporary artistic expression."
+    details: "This innovative installation merges contemporary technology symbolism with sustainable art practices. The 5G tower replica, constructed entirely from recycled scrap materials, serves as a commentary on modern technological advancement while promoting environmental responsibility through creative reuse and artistic transformation."
   },
   {
     id: 14,
     title: "MAKE IN INDIA LOGO",
-    slug: "ancestresses",
+    slug: "make-in-india-logo",
     category: ["video"],
     thumbnail: "/lovable-uploads/m114.png",
     images: [
       "/lovable-uploads/m112.png",
       "/lovable-uploads/m113.png",
-        "/lovable-uploads/m114.png",
-          "/lovable-uploads/mii1.png"
-     
+      "/lovable-uploads/m114.png",
+      "/lovable-uploads/mii1.png"
     ],
-    youtubeIds: ["cHQ5orWUd14"],
-    description: "A series of hypnotic AI-generated animations in which women gather around a fire and reveal their power as shapeshifters.",
+    youtubeId: "cHQ5orWUd14",
+    description: "An artistic interpretation of the Make in India logo created from recycled industrial materials, promoting sustainable manufacturing.",
     date: "2022-2023",
-    location: "Studio Production",
+    location: "Ranchi, Jharkhand, India",
     isFeatured: true,
-    details: "Ancestresses is a series of hypnotic AI-generated animations in which women gather around a fire and reveal their power as shapeshifters. They become their spirit animals, like jaguars, zebras, wolves, deers, crossing the boundary between human and more-than-human kin.\n\nThe works reimagine the witches' sabbath, once demonized as a horror to justify the persecution of women, as a sacred space of transformation and learning. From these sacred gatherings, the women return with ancestral and ecological knowledge, carried through their bodies as fluid beings in communion with nature.\n\nAnimations made with Deforum,."
+    details: "This installation creatively reimagines the Make in India initiative through the lens of sustainable scrap art. By constructing the iconic logo from recycled materials, the project sends a powerful message about the potential for Indian manufacturing to embrace environmental responsibility and circular economy principles, transforming waste into symbols of national pride."
   },
   {
-    id: 13,
+    id: 16,
     title: "LOGO: NHAI",
-    slug: "alma-da-selva-amazonia-mapping",
+    slug: "logo-nhai",
     category: ["video"],
     thumbnail: "/lovable-uploads/nhai2.png",
     images: [
       "/lovable-uploads/nhai1.png",
       "/lovable-uploads/nhai2.png",
-           "/lovable-uploads/nhai3.png",
-               "/lovable-uploads/nhai4.png",
+      "/lovable-uploads/nhai3.png",
+      "/lovable-uploads/nhai4.png"
     ],
     youtubeId: "gwzV6E4aNKA",
-    description: "A journey into the heart of the forest, exploring the ancestral origins and animal spirits of the Amazon through AI-generated visuals.",
+    description: "The National Highways Authority of India (NHAI) logo installation crafted from recycled scrap materials.",
     date: "2023",
-    location: "Amazônia Mapping",
+    location: "Ranchi, Jharkhand, India",
     isFeatured: true,
-    details: "Alma da Selva (Soul of the Jungle 2023) is a journey into the heart of the forest. From its most ancestral origins to its manifestation through the presence of animals, the jungle appears as a single organism—pulsing, transforming, and revealing itself on the façade of one of the cathedrals of Amazônia Mapping.\n\nWith visuals entirely synthesized through neural networks using the text-to-image technique, Alma da Selva introduces the invisible forces of nature that emerge through sound and the masks of animal spirits. These forces appear to make their presence known—as a warning, calling for respect and protection of the forest.\n\nThe creation is a collaboration between artists microdosys and ilumina chebel for the visuals, and Irû Waves for the soundtrack."
+    details: "This NHAI logo installation celebrates India's infrastructure development while championing sustainable art practices. Created entirely from recycled scrap, the sculpture symbolizes the intersection of industrial progress and environmental consciousness, demonstrating how waste can be repurposed into meaningful representations of national infrastructure and commitment to sustainability."
   },
   {
     id: 9,
     title: "THREE SET OF DEER SCULPTURE",
-    slug: "nature-of-movement",
+    slug: "three-set-deer-sculpture",
     category: ["video"],
     thumbnail: "/lovable-uploads/3deer1.png",
     images: [
       "/lovable-uploads/3deer1.png",
       "/lovable-uploads/3deer2.png",
-      "/lovable-uploads/3deer3.png",
-      // "/lovable-uploads/c487e156-de5a-429c-828c-fc254d16e183.png",
-      // "/lovable-uploads/f558032f-84a2-4027-bc64-46eb99383257.png",
-      // "/lovable-uploads/896b00de-b019-44bf-b5d7-43b17113128b.png",
-      // "/lovable-uploads/bc216de0-8f11-487a-97c2-fa72c440c089.png"
+      "/lovable-uploads/3deer3.png"
     ],
     youtubeId: "BAMdjOMDc1U",
-    description: "An animation meditation on impermanence and nature created with the assistance of AI.",
+    description: "A series of three deer sculptures created from recycled metal scrap, celebrating wildlife through sustainable art.",
     date: "2024",
-    location: "Studio Production",
+    location: "Ranchi, Jharkhand, India",
     isFeatured: true,
-    details: "Nature of Movement is a meditative exploration of impermanence and the ever-changing forms found in nature. This animation project was created in 2024 with the assistance of artificial intelligence, blending traditional artistic direction with innovative AI-generated imagery.\n\nThe piece flows through a series of natural transformations - from vibrant flowers to erupting volcanoes, birds in flight to luminous jellyfish - creating a visual poem about the cyclical nature of existence. The vivid color palette and fluid transitions between scenes evoke both the fragility and resilience of natural systems.\n\nThis work stands at the intersection of traditional animation and emerging technologies, questioning how we perceive and relate to nature in an increasingly digital world. Through abstracted natural forms and dreamlike sequences, Nature of Movement invites viewers to contemplate their own relationship with the natural world and the constant state of change that defines all living things.\n\nThe piece is part of the Artelligent exhibit at Caixa Cultural de Salvador from August to November 2025."
+    details: "This triptych of deer sculptures represents the graceful beauty of wildlife reimagined through industrial waste. Each piece in the series captures different poses and moments, collectively creating a meditation on nature, freedom, and the possibilities inherent in scrap art. The sculptures demonstrate how discarded materials can be transformed into tributes to the natural world."
   },
   {
-    id: 10,
+    id: 18,
     title: "RMC",
-    slug: "nature-of-movement",
+    slug: "rmc-sculpture",
     category: ["video"],
-    thumbnail: "/lovable-uploads/3deer1.png",
+    thumbnail: "/lovable-uploads/rmc1.JPG",
     images: [
-      "/lovable-uploads/3deer1.png",
-      "/lovable-uploads/3deer2.png",
-      "/lovable-uploads/3deer3.png",
-
+      "/lovable-uploads/rmc1.JPG",
+      "/lovable-uploads/rmc2.JPG",
+      "/lovable-uploads/rmc3.JPG",
+      "/lovable-uploads/rmc4.JPG",
+      "/lovable-uploads/rmc5.JPG",
+      "/lovable-uploads/rmc6.JPG",
+      "/lovable-uploads/rmc7.JPG",
+      "/lovable-uploads/rmc8.JPG",
+      "/lovable-uploads/rmc9.JPG",
+      "/lovable-uploads/rmc10.JPG",
+      "/lovable-uploads/rmc11.JPG",
+      "/lovable-uploads/rmc12.JPG",
+      "/lovable-uploads/rmc13.JPG",
+      "/lovable-uploads/rmc14.JPG",
+      "/lovable-uploads/rmc15.JPG",
+      "/lovable-uploads/rmc16.JPG",
+      "/lovable-uploads/rmc17.JPG",
+      "/lovable-uploads/rmc18.JPG",
+      "/lovable-uploads/rmc20.JPG",
+      "/lovable-uploads/rmc21.JPG",
+      "/lovable-uploads/rmc22.JPG",
+      "/lovable-uploads/rmc23.JPG",
+      "/lovable-uploads/rmc24.JPG"
     ],
     youtubeId: "BAMdjOMDc1U",
-    description: "An animation meditation on impermanence and nature created with the assistance of AI.",
+    description: "A comprehensive documentary of the RMC (Ranchi Municipal Corporation) art installation project showcasing waste-to-art transformation.",
     date: "2024",
-    location: "Studio Production",
+    location: "Ranchi, Jharkhand, India",
     isFeatured: true,
-    details: "Nature of Movement is a meditative exploration of impermanence and the ever-changing forms found in nature. This animation project was created in 2024 with the assistance of artificial intelligence, blending traditional artistic direction with innovative AI-generated imagery.\n\nThe piece flows through a series of natural transformations - from vibrant flowers to erupting volcanoes, birds in flight to luminous jellyfish - creating a visual poem about the cyclical nature of existence. The vivid color palette and fluid transitions between scenes evoke both the fragility and resilience of natural systems.\n\nThis work stands at the intersection of traditional animation and emerging technologies, questioning how we perceive and relate to nature in an increasingly digital world. Through abstracted natural forms and dreamlike sequences, Nature of Movement invites viewers to contemplate their own relationship with the natural world and the constant state of change that defines all living things.\n\nThe piece is part of the Artelligent exhibit at Caixa Cultural de Salvador from August to November 2025."
-  },
+    details: "This extensive project documentation captures the creation and installation of a major RMC art sculpture from start to finish. The project exemplifies the potential for municipal corporations to engage with contemporary art and sustainability initiatives, transforming public spaces while raising awareness about waste management and creative recycling. The comprehensive image series provides insight into the artistic process and community impact."
+  }
 ];

@@ -82,7 +82,7 @@ const Ilumina: React.FC = () => {
           <div className="mb-12 max-w-4xl">
             <div className="flex items-center justify-between mb-6">
               <h2 className="font-display text-3xl md:text-4xl tracking-wider animate-fade-in">
-                ILUMINA CHEBEL
+                SCRAP ART PROJECTS
               </h2>
               <Link 
                 to="/" 
@@ -144,7 +144,7 @@ const Ilumina: React.FC = () => {
             
             <p className="font-body text-lg text-white/80 mb-10 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "100ms" }}>
               I'm always open to collaborations and new projects. 
-              Reach out at <a href="mailto:chebel@gmail.com" className="text-white hover:text-white/80 transition-colors">chebel@gmail.com</a> to discuss how we can bring your vision to life.
+              Reach out at <a href="mailto:shivam@scrapart.com" className="text-white hover:text-white/80 transition-colors">shivam@scrapart.com</a> to discuss how we can bring your vision to life.
             </p>
           </div>
         </div>

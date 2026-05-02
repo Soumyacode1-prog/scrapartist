@@ -92,19 +92,19 @@ const Landing: React.FC = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <Link 
-              to="/infinita" 
+              to="/all-projects" 
               className="group glass-card p-8 text-center transition-all duration-500 hover:scale-105 hover:bg-white/10 parallax"
               data-speed="0.5"
             >
               <div className="mb-6">
                 <h3 className="font-display text-2xl md:text-3xl tracking-wider mb-3">
-                  INFINITA CHEBEL
+                  ALL PROJECTS
                 </h3>
                 <p className="font-body text-white/80 mb-4 text-sm">
-                  Photography • Video • Performance
+                  Video • Installation • Generative Art
                 </p>
                 <p className="font-body text-xs text-white/70">
-                  Intimate visual narratives exploring human emotion through lens-based media.
+                  Explore all scrap art projects and installations.
                 </p>
               </div>
               <div className="flex items-center justify-center text-white/60 group-hover:text-white transition-colors">
@@ -114,19 +114,19 @@ const Landing: React.FC = () => {
             </Link>
             
             <Link 
-              to="/ilumina" 
+              to="/decor-items" 
               className="group glass-card p-8 text-center transition-all duration-500 hover:scale-105 hover:bg-white/10 parallax"
               data-speed="0.7"
             >
               <div className="mb-6">
                 <h3 className="font-display text-2xl md:text-3xl tracking-wider mb-3">
-                  ILUMINA CHEBEL
+                  DECOR ITEMS
                 </h3>
                 <p className="font-body text-white/80 mb-4 text-sm">
-                  Generative Art • VJ • Installations
+                  Sculptures • Installations • Artworks
                 </p>
                 <p className="font-body text-xs text-white/70">
-                  Digital experiences illuminating new realities through technology.
+                  Explore our collection of unique decorative pieces and scrap art installations.
                 </p>
               </div>
               <div className="flex items-center justify-center text-white/60 group-hover:text-white transition-colors">
