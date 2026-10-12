@@ -81,15 +81,25 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
         className="relative overflow-hidden rounded-lg transition-transform duration-500 ease-out-expo"
         style={{ transformStyle: 'preserve-3d' }}
       >
-        <div className="w-full pb-[100%] relative overflow-hidden rounded-lg">
-          <img 
-            src={optimizedImage(project.thumbnail)}
-            onError={(event) => { event.currentTarget.src = project.thumbnail; }}
-            alt={project.title}
-            loading={index < 3 ? 'eager' : 'lazy'}
-            decoding="async"
-            className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out-expo group-hover:scale-105"
-          />
+        <div className={`w-full ${project.category.includes('installation') && project.youtubeId ? 'aspect-video' : 'pb-[100%]'} relative overflow-hidden rounded-lg`}>
+          {project.category.includes('installation') && project.youtubeId ? (
+            <iframe
+              src={`https://www.youtube.com/embed/${project.youtubeId}`}
+              title={project.title}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute inset-0 w-full h-full border-0"
+            />
+          ) : (
+            <img 
+              src={optimizedImage(project.thumbnail)}
+              onError={(event) => { event.currentTarget.src = project.thumbnail; }}
+              alt={project.title}
+              loading={index < 3 ? 'eager' : 'lazy'}
+              decoding="async"
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out-expo group-hover:scale-105"
+            />
+          )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-100 transition-opacity duration-500" />
         
           <div className="absolute inset-0 p-4 sm:p-6 flex flex-col justify-end transition-all duration-500 ease-out-expo">
