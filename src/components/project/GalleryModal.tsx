@@ -27,7 +27,7 @@ const GalleryModal: React.FC<GalleryModalProps> = ({
 }) => {
   return (
     <Dialog open={galleryOpen} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-6xl w-screen max-h-[90vh] p-0 bg-black/95 border-none flex flex-col">
+      <DialogContent className="w-[calc(100vw-1rem)] sm:w-screen max-w-6xl max-h-[90vh] p-0 bg-black/95 border-none flex flex-col">
         <div className="absolute right-6 top-6 z-50 flex gap-3 pointer-events-auto">
           <Link to="/" className="flex items-center justify-center rounded-full bg-black/60 p-2.5 text-white hover:bg-black/80 transition-colors" title="Back to home">
             <Home className="h-6 w-6" />
@@ -39,7 +39,7 @@ const GalleryModal: React.FC<GalleryModalProps> = ({
           </DialogClose>
         </div>
         
-        <div className="relative flex items-center justify-center flex-1 w-full min-h-[60vh] py-8 px-6">
+        <div className="relative flex items-center justify-center flex-1 w-full min-h-[45vh] sm:min-h-[60vh] py-8 px-3 sm:px-6">
           {project.images && (
             <img 
               src={project.images[galleryIndex]} 

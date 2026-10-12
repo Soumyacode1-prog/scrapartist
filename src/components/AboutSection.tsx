@@ -1,7 +1,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Instagram, Mail, Phone } from 'lucide-react';
+import { ArrowRight, Instagram, Mail, Phone, Youtube } from 'lucide-react';
 
 const AboutSection: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -66,13 +66,22 @@ const AboutSection: React.FC = () => {
               
               <div className="flex flex-col sm:flex-row gap-6 mb-8">
                 <a 
-                  href="https://instagram.com/shivamsingh3824" 
+                  href="https://www.instagram.com/shivamsinghdesignstudio?mdxt=eHpuenV6YmJ2MWR0" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="inline-flex items-center font-body text-sm tracking-wider group hover:text-white/90"
                 >
                   <Instagram size={18} className="m/Users/soumya/Downloads/KD_03549.jpg.jpeg/Users/soumya/Downloads/KD_03549.jpg.jpeg/Users/soumya/Downloads/KD_03549.jpg.jpegr-2" />
-                  @shivamsingh3824
+                  @shivamsinghdesignstudio
+                </a>
+                <a
+                  href="https://www.youtube.com/@shivamsinghdesginstudio/featured"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-white/70 hover:text-white transition-colors"
+                >
+                  <Youtube size={18} className="mr-2" />
+                  YouTube
                 </a>
               </div>
               
@@ -117,11 +126,11 @@ const AboutSection: React.FC = () => {
             <div className="glass-card p-6 mt-8">
               <div className="flex items-center mb-4">
                 <Mail size={18} className="mr-3 text-white/70" />
-                <span className="font-body">shivam@scrapart.com</span>
+                <a href="mailto:shivamsingh7654@gmail.com" className="font-body hover:text-white">shivamsingh7654@gmail.com</a>
               </div>
               <div className="flex items-center">
                 <Phone size={18} className="mr-3 text-white/70" />
-                <span className="font-body">+91-6200-123-456</span>
+                <a href="tel:+916202709956" className="font-body hover:text-white">62027 09956</a>
               </div>
             </div>
           </div>

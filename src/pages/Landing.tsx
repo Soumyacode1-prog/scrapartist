@@ -1,7 +1,8 @@
 
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Instagram, Mail, Phone, Youtube } from 'lucide-react';
+import { optimizedImage } from '../lib/image';
 
 const personaImages = [
 "/lovable-uploads/front1.png",
@@ -60,8 +61,11 @@ const Landing: React.FC = () => {
     <div className="min-h-screen flex flex-col relative overflow-hidden" ref={containerRef}>
       <div className="absolute inset-0 z-0">
         <img 
-          src={personaImages[activeIndex]} 
+          src={optimizedImage(personaImages[activeIndex])}
+          onError={(event) => { event.currentTarget.src = personaImages[activeIndex]; }}
           alt="Artist work"
+          fetchPriority="high"
+          decoding="async"
           className="w-full h-full object-cover opacity-60"
           style={{ 
             transform: 'scale(1.05)',
@@ -137,6 +141,26 @@ const Landing: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <section className="relative z-10 px-4 pb-8 sm:px-6">
+        <div className="glass-card mx-auto flex max-w-5xl flex-col items-center gap-4 p-4 text-center sm:p-5">
+          <p className="font-display text-xs tracking-[0.2em] text-white/60">GET IN TOUCH</p>
+          <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-3 text-sm text-white/80">
+            <a href="mailto:shivamsingh7654@gmail.com" className="inline-flex items-center gap-2 hover:text-white">
+              <Mail size={16} /> shivamsingh7654@gmail.com
+            </a>
+            <a href="tel:+916202709956" className="inline-flex items-center gap-2 hover:text-white">
+              <Phone size={16} /> 62027 09956
+            </a>
+            <a href="https://www.instagram.com/shivamsinghdesignstudio?mdxt=eHpuenV6YmJ2MWR0" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-white">
+              <Instagram size={16} /> Instagram
+            </a>
+            <a href="https://www.youtube.com/@shivamsinghdesginstudio/featured" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-white">
+              <Youtube size={16} /> YouTube
+            </a>
+          </div>
+        </div>
+      </section>
       
       <footer className="relative z-10 p-6">
         <div className="text-center">

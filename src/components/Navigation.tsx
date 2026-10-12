@@ -41,7 +41,7 @@ const Navigation: React.FC = () => {
   return (
     <header 
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
-        scrolled ? 'bg-black/80 backdrop-blur-md py-4' : 'bg-transparent py-6'
+        scrolled ? 'bg-black/80 backdrop-blur-md py-3 sm:py-4' : 'bg-transparent py-4 sm:py-6'
       }`}
     >
       <div className="container-custom flex justify-between items-center">
@@ -75,16 +75,6 @@ const Navigation: React.FC = () => {
             </li> */}
             <li>
               <Link 
-                to="/decor-items" 
-                className={`font-body text-sm transition-colors ${
-                  isActive('/decor-items') ? 'text-white' : 'text-white/60 hover:text-white'
-                }`}
-              >
-                DECOR ITEMS
-              </Link>
-            </li>
-            <li>
-              <Link 
                 to="/all-projects" 
                 className={`font-body text-sm transition-colors ${
                   isActive('/all-projects') ? 'text-white' : 'text-white/60 hover:text-white'
@@ -115,12 +105,22 @@ const Navigation: React.FC = () => {
             </li> */}
             <li>
               <Link 
-                to="/substack" 
+                to="/contact" 
                 className={`font-body text-sm transition-colors ${
-                  isActive('/substack') ? 'text-white' : 'text-white/60 hover:text-white'
+                  isActive('/contact') ? 'text-white' : 'text-white/60 hover:text-white'
                 }`}
               >
-                SUBSTACK
+                CONTACT
+              </Link>
+            </li>
+            <li>
+              <Link 
+                to="/decor-items" 
+                className={`font-body text-sm transition-colors ${
+                  isActive('/decor-items') ? 'text-white' : 'text-white/60 hover:text-white'
+                }`}
+              >
+                DECOR ITEMS
               </Link>
             </li>
             {/* <li>
@@ -156,7 +156,7 @@ const Navigation: React.FC = () => {
             isMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
           }`}
         >
-          <div className="fixed top-0 left-0 w-full container-custom py-6 flex justify-between items-center">
+          <div className="fixed top-0 left-0 w-full container-custom py-4 sm:py-6 flex justify-between items-center">
             <div>
               <Link to="/" className="font-display text-xl tracking-wider">
                 SHIVAM SINGH
@@ -164,18 +164,8 @@ const Navigation: React.FC = () => {
             </div>
           </div>
           
-          <nav className="fixed inset-0 pt-24 container-custom">
-            <ul className="flex flex-col gap-8">
-              <li>
-                <Link 
-                  to="/decor-items" 
-                  className={`font-body text-2xl transition-colors ${
-                    isActive('/decor-items') ? 'text-white' : 'text-white/60'
-                  }`}
-                >
-                  DECOR ITEMS
-                </Link>
-              </li>
+          <nav className="fixed inset-0 overflow-y-auto pt-24 pb-10 container-custom">
+            <ul className="flex flex-col gap-6 sm:gap-8">
               <li>
                 <Link 
                   to="/all-projects" 
@@ -198,12 +188,12 @@ const Navigation: React.FC = () => {
               </li> */}
               <li>
                 <Link 
-                  to="/substack" 
+                  to="/contact" 
                   className={`font-body text-2xl transition-colors ${
-                    isActive('/substack') ? 'text-white' : 'text-white/60'
+                    isActive('/contact') ? 'text-white' : 'text-white/60'
                   }`}
                 >
-                  SUBSTACK
+                  CONTACT
                 </Link>
               </li>
               <li>
@@ -214,6 +204,16 @@ const Navigation: React.FC = () => {
                   }`}
                 >
                   ABOUT
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/decor-items" 
+                  className={`font-body text-2xl transition-colors ${
+                    isActive('/decor-items') ? 'text-white' : 'text-white/60'
+                  }`}
+                >
+                  DECOR ITEMS
                 </Link>
               </li>
             </ul>

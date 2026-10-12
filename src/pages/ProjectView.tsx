@@ -66,17 +66,17 @@ const ProjectView: React.FC = () => {
         
         <RelatedProjects currentProject={project} allProjects={allProjectsIncludingIlumina} />
         
-        <div className="mt-24 pt-8 border-t border-white/10">
-          <div className="flex justify-between">
+        <div className="mt-16 md:mt-24 pt-8 border-t border-white/10">
+          <div className="flex items-start justify-between gap-6">
             {prevProject ? (
               <Link 
                 to={`/projects/${prevProject.slug}`}
-                className="group flex items-center font-body text-white/70 hover:text-white transition-colors duration-300"
+                className="group flex min-w-0 max-w-[48%] items-center font-body text-white/70 hover:text-white transition-colors duration-300"
               >
                 <ArrowLeft size={16} className="mr-2 transition-transform duration-300 group-hover:-translate-x-1" />
                 <span>
                   <span className="block text-xs text-white/50">Previous</span>
-                  {prevProject.title}
+                  <span className="block truncate">{prevProject.title}</span>
                 </span>
               </Link>
             ) : (
@@ -86,11 +86,11 @@ const ProjectView: React.FC = () => {
             {nextProject ? (
               <Link 
                 to={`/projects/${nextProject.slug}`}
-                className="group flex items-center text-right font-body text-white/70 hover:text-white transition-colors duration-300"
+                className="group flex min-w-0 max-w-[48%] items-center text-right font-body text-white/70 hover:text-white transition-colors duration-300"
               >
                 <span>
                   <span className="block text-xs text-white/50">Next</span>
-                  {nextProject.title}
+                  <span className="block truncate">{nextProject.title}</span>
                 </span>
                 <ArrowRight size={16} className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
               </Link>

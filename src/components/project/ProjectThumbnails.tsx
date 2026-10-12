@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Project } from '../../data/types';
+import { optimizedImage } from '../../lib/image';
 import { Button } from '../ui/button';
 
 interface ProjectThumbnailsProps {
@@ -33,8 +34,11 @@ const ProjectThumbnails: React.FC<ProjectThumbnailsProps> = ({
             }`}
           >
             <img 
-              src={image} 
+              src={optimizedImage(image)}
+              onError={(event) => { event.currentTarget.src = image; }}
               alt={`${project.title} thumbnail ${index + 1}`} 
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover"
             />
           </button>

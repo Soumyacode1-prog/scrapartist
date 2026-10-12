@@ -16,7 +16,7 @@ export const videoProjects: Project[] = [
       "/lovable-uploads/image4.png",
       "/lovable-uploads/image5.png"
     ],
-    youtubeId: "zrIlYORbVEo",
+    youtubeId: "H9z115Dxpo8",
     description: `Material Used (Recycled Materials):
 Metal sheet, Metal Rod, Metal wire, window panel,
 Hexagonal Metal Nut, metal stripe, square pipe, Barrel. Approximate Dimensions:
@@ -43,7 +43,7 @@ Weight: 210 Kg`,
       "/lovable-uploads/image12.png",
       "/lovable-uploads/image13.png"
     ],
-    youtubeId: "r02RDeHWYBQ",
+    youtubeId: "up1EOyQga_U",
     description: `Approximate Dimensions
 Length: 15 x 22 x 5 Feet
 Weight: 280 Kg
@@ -73,7 +73,7 @@ Clutch plate, Bike socket nut bolt, Rod, Metal sheet, Bearing, Window panel, Win
       "/lovable-uploads/logo10.png",
       "/lovable-uploads/logo11.png"
     ],
-    youtubeId: "z8mfcIqVBWk",
+    youtubeId: "H9IvwZIKW3g",
     description: "Artistic logo installation for the Municipal Corporation of Ranchi showcasing creative municipal branding through scrap art.",
     date: "2025",
     location: "Ranchi, Jharkhand, India",
@@ -96,7 +96,7 @@ Clutch plate, Bike socket nut bolt, Rod, Metal sheet, Bearing, Window panel, Win
       "/lovable-uploads/birsa7.png",
       "/lovable-uploads/birsa8.png"
     ],
-    youtubeId: "5n6uJ6aZ8JU",
+    youtubeIds: ["FKmQCWmzgGI", "kWDrHsq7a5s"],
     description: "A monumental sculpture honoring Bhagwan Birsa Munda, the legendary tribal freedom fighter, created from recycled materials.",
     date: "2024",
     location: "Ranchi Airport, Jharkhand, India",
@@ -124,7 +124,7 @@ Clutch plate, Bike socket nut bolt, Rod, Metal sheet, Bearing, Window panel, Win
       "/lovable-uploads/cmpdi14.png",
       "/lovable-uploads/cmpdi15.png"
     ],
-    youtubeId: "pma2v5F_FGc",
+    youtubeId: "J1BeLPh25HA",
     description: "A comprehensive collection of waste-to-art projects created in collaboration with CMPDI, transforming industrial waste into meaningful sculptures and installations.",
     date: "2024",
     location: "Ranchi, Jharkhand, India",
@@ -141,7 +141,6 @@ Clutch plate, Bike socket nut bolt, Rod, Metal sheet, Bearing, Window panel, Win
       "/lovable-uploads/5g1.png",
       "/lovable-uploads/5g2.png"
     ],
-    youtubeId: "txoONe0Vnj8",
     description: "A contemporary art installation featuring a 5G tower replica created from recycled scrap materials.",
     date: "2023",
     location: "Ranchi, Jharkhand, India",
@@ -160,7 +159,7 @@ Clutch plate, Bike socket nut bolt, Rod, Metal sheet, Bearing, Window panel, Win
       "/lovable-uploads/m114.png",
       "/lovable-uploads/mii1.png"
     ],
-    youtubeId: "cHQ5orWUd14",
+    youtubeId: "vnMHx_IlffY",
     description: "An artistic interpretation of the Make in India logo created from recycled industrial materials, promoting sustainable manufacturing.",
     date: "2022-2023",
     location: "Ranchi, Jharkhand, India",
@@ -179,7 +178,6 @@ Clutch plate, Bike socket nut bolt, Rod, Metal sheet, Bearing, Window panel, Win
       "/lovable-uploads/nhai3.png",
       "/lovable-uploads/nhai4.png"
     ],
-    youtubeId: "gwzV6E4aNKA",
     description: "The National Highways Authority of India (NHAI) logo installation crafted from recycled scrap materials.",
     date: "2023",
     location: "Ranchi, Jharkhand, India",
@@ -197,7 +195,7 @@ Clutch plate, Bike socket nut bolt, Rod, Metal sheet, Bearing, Window panel, Win
       "/lovable-uploads/3deer2.png",
       "/lovable-uploads/3deer3.png"
     ],
-    youtubeId: "BAMdjOMDc1U",
+    youtubeId: "Ny4VHhGUk5A",
     description: "A series of three deer sculptures created from recycled metal scrap, celebrating wildlife through sustainable art.",
     date: "2024",
     location: "Ranchi, Jharkhand, India",
@@ -235,7 +233,7 @@ Clutch plate, Bike socket nut bolt, Rod, Metal sheet, Bearing, Window panel, Win
       "/lovable-uploads/rmc4.png",
 
     ],
-    youtubeId: "BAMdjOMDc1U",
+    youtubeIds: ["UafjGmG6Y_g", "ntAYxhflisQ"],
     description: "A comprehensive documentary of the RMC (Ranchi Municipal Corporation) art installation project showcasing waste-to-art transformation.",
     date: "2024",
     location: "Ranchi, Jharkhand, India",

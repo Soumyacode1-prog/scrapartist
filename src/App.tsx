@@ -11,7 +11,7 @@ import Index from "./pages/Index";
 import ProjectView from "./pages/ProjectView";
 import About from "./pages/About";
 import Sketchbook from "./pages/Sketchbook";
-import Substack from "./pages/Substack";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -31,7 +31,7 @@ const App = () => (
           <Route path="/projects/:slug" element={<ProjectView />} />
           <Route path="/photodiary" element={<Sketchbook />} />
           <Route path="/sketchbook" element={<Sketchbook />} />
-          <Route path="/substack" element={<Substack />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

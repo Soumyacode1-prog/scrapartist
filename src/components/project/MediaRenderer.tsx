@@ -4,6 +4,7 @@ import { Project } from '../../data/types';
 import { AspectRatio } from '../ui/aspect-ratio';
 import { Button } from '../ui/button';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { optimizedImage } from '../../lib/image';
 
 interface MediaRendererProps {
   project: Project;
@@ -95,8 +96,10 @@ const MediaRenderer: React.FC<MediaRendererProps> = ({
         
         <div className="flex justify-center cursor-pointer" onClick={onImageClick}>
           <img 
-            src={project.images[selectedImageIndex]} 
+            src={optimizedImage(project.images[selectedImageIndex])}
+            onError={(event) => { event.currentTarget.src = project.images![selectedImageIndex]; }}
             alt={project.title} 
+            decoding="async"
             className={`transition-opacity duration-500 ${
               imageOrientation === 'portrait' 
                 ? 'max-h-[80vh] h-auto w-auto object-contain' 
@@ -126,8 +129,10 @@ const MediaRenderer: React.FC<MediaRendererProps> = ({
     return (
       <div className="relative overflow-hidden">
         <img 
-          src={project.thumbnail} 
+          src={optimizedImage(project.thumbnail)}
+          onError={(event) => { event.currentTarget.src = project.thumbnail; }}
           alt={project.title} 
+          decoding="async"
           className="w-full h-auto"
           onLoad={onImageLoad}
         />

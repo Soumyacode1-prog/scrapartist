@@ -1,7 +1,8 @@
 
 import React from 'react';
 import Layout from '../components/Layout';
-import { Instagram, Mail, Phone } from 'lucide-react';
+import { Instagram, Mail, Phone, Youtube } from 'lucide-react';
+import { optimizedImage } from '../lib/image';
 
 const About: React.FC = () => {
   return (
@@ -30,13 +31,22 @@ const About: React.FC = () => {
               
               <div className="flex flex-col sm:flex-row gap-6 mb-8">
                 <a 
-                  href="https://instagram.com/shivamsinghart" 
+                  href="https://www.instagram.com/shivamsinghdesignstudio?mdxt=eHpuenV6YmJ2MWR0" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="inline-flex items-center font-body text-sm tracking-wider group hover:text-white/90"
                 >
                   <Instagram size={18} className="mr-2" />
-                  @shivamsingh3824
+                  @shivamsinghdesignstudio
+                </a>
+                <a
+                  href="https://www.youtube.com/@shivamsinghdesginstudio/featured"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-white/70 hover:text-white transition-colors"
+                >
+                  <Youtube size={18} className="mr-2" />
+                  YouTube
                 </a>
               </div>
             </div>
@@ -83,8 +93,10 @@ const About: React.FC = () => {
               <div className="relative perspective">
                 <div className="relative rounded-lg overflow-hidden transform hover:rotate-0 transition-transform duration-700 ease-out-expo shadow-xl">
                   <img 
-                    src="/lovable-uploads/shivam1.png" 
+                    src={optimizedImage('/lovable-uploads/shivam1.png')}
+                    onError={(event) => { event.currentTarget.src = '/lovable-uploads/shivam1.png'; }}
                     alt="Shivam Singh Portrait" 
+                    decoding="async"
                     className="w-full h-auto"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
@@ -99,8 +111,11 @@ const About: React.FC = () => {
               <div className="relative perspective mt-8">
                 <div className="relative rounded-lg overflow-hidden transform rotate-2 hover:rotate-0 transition-transform duration-700 ease-out-expo shadow-xl">
                   <img 
-                    src="/lovable-uploads/shivam2.png" 
+                    src={optimizedImage('/lovable-uploads/shivam2.png')}
+                    onError={(event) => { event.currentTarget.src = '/lovable-uploads/shivam2.png'; }}
                     alt="Shivam Singh at work" 
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-auto"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
@@ -125,7 +140,7 @@ const About: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-display text-lg mb-1">Email</h3>
-                    <p className="font-body text-white/70">shivam@scrapart.com</p>
+                    <a href="mailto:shivamsingh7654@gmail.com" className="font-body text-white/70 hover:text-white">shivamsingh7654@gmail.com</a>
                   </div>
                 </div>
                 
@@ -135,7 +150,7 @@ const About: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-display text-lg mb-1">Phone</h3>
-                    <p className="font-body text-white/70">+91-6200-123-456</p>
+                    <a href="tel:+916202709956" className="font-body text-white/70 hover:text-white">62027 09956</a>
                   </div>
                 </div>
               </div>

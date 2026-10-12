@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
 import ProjectCard from '../components/ProjectCard';
 import { projects, Project } from '../data/projects';
+import { Project as ProjectType } from '../data/types';
 
 const Infinita: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState<string>('all');
@@ -31,7 +32,7 @@ const Infinita: React.FC = () => {
       if (activeFilter === 'all') {
         setFilteredProjects(infinitaProjects);
       } else {
-        setFilteredProjects(infinitaProjects.filter(project => project.category.includes(activeFilter as any)));
+        setFilteredProjects(infinitaProjects.filter(project => project.category.includes(activeFilter as ProjectType['category'][number])));
       }
       
       setIsAnimating(false);
@@ -141,7 +142,7 @@ const Infinita: React.FC = () => {
             
             <p className="font-body text-lg text-white/80 mb-10 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "100ms" }}>
               I'm always open to collaborations and new projects. 
-              Reach out at <a href="mailto:shivam@scrapart.com" className="text-white hover:text-white/80 transition-colors">shivam@scrapart.com</a> to discuss how we can bring your vision to life.
+              Reach out at <a href="mailto:shivamsingh7654@gmail.com" className="text-white hover:text-white/80 transition-colors">shivamsingh7654@gmail.com</a> to discuss how we can bring your vision to life.
             </p>
           </div>
         </div>

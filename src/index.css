@@ -49,6 +49,10 @@
     @apply bg-background text-foreground overflow-x-hidden;
     font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
   }
+
+  img, video, iframe {
+    max-width: 100%;
+  }
 }
 
 @layer components {

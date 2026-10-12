@@ -23,21 +23,11 @@ const Contact: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // In a real implementation, you would send this to your email
-    // Here we're simulating sending the form data
-    console.log('Form submitted to shivam@scrapart.com:', formData);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      setFormData({ name: '', email: '', subject: '', message: '' });
-      setIsSubmitting(false);
-      setSubmitSuccess(true);
-      toast.success("Message sent successfully! Shivam will get back to you soon.");
-      
-      setTimeout(() => {
-        setSubmitSuccess(false);
-      }, 5000);
-    }, 1500);
+    const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`;
+    window.location.href = `mailto:shivamsingh7654@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(body)}`;
+    setIsSubmitting(false);
+    setSubmitSuccess(true);
+    toast.success("Your email app has been opened with the message ready to send.");
   };
   
   return (
@@ -146,7 +136,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-display text-lg mb-1">Email</h3>
-                    <p className="font-body text-white/70">shivam@scrapart.com</p>
+                    <a href="mailto:shivamsingh7654@gmail.com" className="font-body text-white/70 hover:text-white">shivamsingh7654@gmail.com</a>
                   </div>
                 </div>
               </div>
@@ -158,7 +148,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-display text-lg mb-1">Phone</h3>
-                    <p className="font-body text-white/70">+55(11)98556-4289</p>
+                    <a href="tel:+916202709956" className="font-body text-white/70 hover:text-white">62027 09956</a>
                   </div>
                 </div>
               </div>
@@ -166,17 +156,20 @@ const Contact: React.FC = () => {
               <div className="mt-8">
                 <h3 className="font-display text-lg mb-4">Connect</h3>
                 <div className="flex space-x-4">
-                  {['instagram', 'twitter', 'vimeo', 'linkedin'].map(platform => (
+                  {[
+                    { name: 'instagram', href: 'https://www.instagram.com/shivamsinghdesignstudio?mdxt=eHpuenV6YmJ2MWR0' },
+                    { name: 'youtube', href: 'https://www.youtube.com/@shivamsinghdesginstudio/featured' },
+                  ].map(({ name, href }) => (
                     <a
-                      key={platform}
-                      href={`https://www.${platform}.com`}
+                      key={name}
+                      href={href}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-white/10 hover:bg-white/20 w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300"
                     >
                       <img
-                        src={`https://cdn.simpleicons.org/${platform}/ffffff`}
-                        alt={platform}
+                        src={`https://cdn.simpleicons.org/${name}/ffffff`}
+                        alt={name}
                         className="w-5 h-5"
                       />
                     </a>

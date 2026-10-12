@@ -73,7 +73,7 @@ const DecorItems: React.FC = () => {
             
             <p className="font-body text-lg text-white/80 mb-10 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "100ms" }}>
               Let's discuss your custom decor project. 
-              Reach out at <a href="mailto:shivam@scrapart.com" className="text-white hover:text-white/80 transition-colors">shivam@scrapart.com</a> to bring your vision to life.
+              Reach out at <a href="mailto:shivamsingh7654@gmail.com" className="text-white hover:text-white/80 transition-colors">shivamsingh7654@gmail.com</a> to bring your vision to life.
             </p>
           </div>
         </div>

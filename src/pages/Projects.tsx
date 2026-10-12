@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
 import ProjectCard from '../components/ProjectCard';
 import { projects, Project } from '../data/projects';
+import { Project as ProjectType } from '../data/types';
 
 const Projects: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState<string>('all');
@@ -25,7 +26,7 @@ const Projects: React.FC = () => {
       if (activeFilter === 'all') {
         setFilteredProjects(projects);
       } else {
-        setFilteredProjects(projects.filter(project => project.category.includes(activeFilter as any)));
+        setFilteredProjects(projects.filter(project => project.category.includes(activeFilter as ProjectType['category'][number])));
       }
       
       setIsAnimating(false);
