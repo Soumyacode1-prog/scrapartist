@@ -46,7 +46,7 @@ const Navigation: React.FC = () => {
     >
       <div className="container-custom flex justify-between items-center">
         <div>
-          <Link to="/" className="font-display text-xl tracking-wider">
+          <Link to="/" className="font-display text-2xl sm:text-xl tracking-wider">
             SHIVAM SINGH
           </Link>
         </div>
@@ -158,7 +158,7 @@ const Navigation: React.FC = () => {
         >
           <div className="fixed top-0 left-0 w-full container-custom py-4 sm:py-6 flex justify-between items-center">
             <div>
-              <Link to="/" className="font-display text-xl tracking-wider">
+              <Link to="/" className="font-display text-2xl sm:text-xl tracking-wider">
                 SHIVAM SINGH
               </Link>
             </div>

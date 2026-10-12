@@ -14,16 +14,16 @@ const allWebsiteImages = [
   "shivam1", "shivam2"
 ].map((name) => `/lovable-uploads/${name}.png`);
 
-export const photographyProjects: Project[] = [{
-  id: 101,
-  title: "COMPLETE SCRAP ART IMAGE ARCHIVE",
-  slug: "complete-scrap-art-image-archive",
+export const photographyProjects: Project[] = allWebsiteImages.map((image, index) => ({
+  id: 101 + index,
+  title: `IMAGE ${String(index + 1).padStart(2, '0')}`,
+  slug: `image-archive-${index + 1}`,
   category: ["photography"],
-  thumbnail: "/lovable-uploads/shivam1.png",
-  images: allWebsiteImages,
-  description: "A complete visual archive containing all images used across the Scrap Artist website.",
+  thumbnail: image,
+  images: [image],
+  description: "Image from the Scrap Artist website archive.",
   date: "2025",
   location: "Ranchi, Jharkhand, India",
   isFeatured: true,
-  details: "Browse the full collection of project, installation, sculpture, portrait, and studio images used throughout the website."
-}];
+  details: "Part of the complete visual archive of images used across the Scrap Artist website."
+}));
