@@ -1,36 +1,28 @@
 
 import { Project } from './types';
 
-export const installationProjects: Project[] = [{
-  id: 201,
-  title: "INSTALLATION VIDEO ARCHIVE",
-  slug: "installation-video-archive",
+const installationVideos = [
+  ["GDPagDMeYzg", "INSTALLATION VIDEO 01"],
+  ["LO1NE7cgpoY", "INSTALLATION VIDEO 02"],
+  ["WjvZsrQIuNc", "INSTALLATION VIDEO 03"],
+  ["v6MZYz6QPLY", "INSTALLATION VIDEO 04"],
+  ["nP_vlXQKbn4", "INSTALLATION VIDEO 05"],
+  ["UzyDaCB0cRk", "INSTALLATION VIDEO 06"],
+  ["F02mFToauSw", "INSTALLATION VIDEO 07"],
+  ["yg7wGIh6bl4", "INSTALLATION VIDEO 08"]
+] as const;
+
+export const installationProjects: Project[] = installationVideos.map(([youtubeId, title], index) => ({
+  id: 201 + index,
+  title,
+  slug: `installation-video-${index + 1}`,
   category: ["installation"],
   thumbnail: "/lovable-uploads/image2.png",
-  youtubeIds: [
-    "GDPagDMeYzg",
-    "LO1NE7cgpoY",
-    "WjvZsrQIuNc",
-    "v6MZYz6QPLY",
-    "nP_vlXQKbn4",
-    "UzyDaCB0cRk",
-    "F02mFToauSw",
-    "yg7wGIh6bl4",
-    "H9z115Dxpo8",
-    "up1EOyQga_U",
-    "H9IvwZIKW3g",
-    "FKmQCWmzgGI",
-    "kWDrHsq7a5s",
-    "J1BeLPh25HA",
-    "vnMHx_IlffY",
-    "Ny4VHhGUk5A",
-    "UafjGmG6Y_g",
-    "ntAYxhflisQ"
-  ],
-  description: "A collection of installation and scrap art videos, including the latest YouTube Shorts and existing project films.",
+  youtubeId,
+  description: "Installation video from the Scrap Artist archive.",
   date: "2025",
   location: "Ranchi, Jharkhand, India",
   isFeatured: true,
   showCategory: false,
-  details: "Explore installation documentation and short-form videos from the Scrap Artist archive."
-}];
+  details: "Installation documentation shared by Shivam Singh."
+}));
