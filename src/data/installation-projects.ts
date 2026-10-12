@@ -31,5 +31,6 @@ export const installationProjects: Project[] = [{
   date: "2025",
   location: "Ranchi, Jharkhand, India",
   isFeatured: true,
+  showCategory: false,
   details: "Explore installation documentation and short-form videos from the Scrap Artist archive."
 }];

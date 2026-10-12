@@ -15,4 +15,5 @@ export interface Project {
   details?: string;
   youtubeId?: string;
   youtubeIds?: string[];
+  showCategory?: boolean;
 }
